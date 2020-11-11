@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+
+.activ {
+    background: white;
+    color: black !important;
+}
+
+.flx-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-header {
+    padding: 10px !important;
+}
+
+.flx-container-mainbody {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flx-container-mainbody .align-left section,
+.flx-container-mainbody .align-right section {
+    display: inline-block;
+    /* line-height: 3px; */
+}
+
+.o-img {
+    height: 100px;
+    width: 100px;
+    margin: 0 3px;
+}
+
+.o-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
